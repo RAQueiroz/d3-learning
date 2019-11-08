@@ -1,0 +1,17 @@
+{
+  "name": "d3-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rodrigo Queiroz <queiroz_rodrigo@outlook.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./public/index.html",
+    "bundle": "parcel build ./public/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "d3": "^5.12.0"
+  }
+}
